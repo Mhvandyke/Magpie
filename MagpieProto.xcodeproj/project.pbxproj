@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED92BCCF20656BEA009C6EB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED92BCCE20656BEA009C6EB3 /* AppDelegate.swift */; };
+		ED92BCD120656BEA009C6EB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED92BCD020656BEA009C6EB3 /* ViewController.swift */; };
+		ED92BCD420656BEA009C6EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED92BCD220656BEA009C6EB3 /* Main.storyboard */; };
+		ED92BCD720656BEA009C6EB3 /* MagpieProto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED92BCD520656BEA009C6EB3 /* MagpieProto.xcdatamodeld */; };
+		ED92BCD920656BEA009C6EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED92BCD820656BEA009C6EB3 /* Assets.xcassets */; };
+		ED92BCDC20656BEA009C6EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED92BCDA20656BEA009C6EB3 /* LaunchScreen.storyboard */; };
+		ED92BCE720656BEA009C6EB3 /* MagpieProtoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED92BCE620656BEA009C6EB3 /* MagpieProtoTests.swift */; };
+		ED92BCF220656BEA009C6EB3 /* MagpieProtoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED92BCF120656BEA009C6EB3 /* MagpieProtoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED92BCE320656BEA009C6EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED92BCC320656BEA009C6EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED92BCCA20656BEA009C6EB3;
+			remoteInfo = MagpieProto;
+		};
+		ED92BCEE20656BEA009C6EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED92BCC320656BEA009C6EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED92BCCA20656BEA009C6EB3;
+			remoteInfo = MagpieProto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED92BCCB20656BEA009C6EB3 /* MagpieProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagpieProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED92BCCE20656BEA009C6EB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED92BCD020656BEA009C6EB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED92BCD320656BEA009C6EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED92BCD620656BEA009C6EB3 /* MagpieProto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagpieProto.xcdatamodel; sourceTree = "<group>"; };
+		ED92BCD820656BEA009C6EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED92BCDB20656BEA009C6EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED92BCDD20656BEA009C6EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED92BCE220656BEA009C6EB3 /* MagpieProtoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagpieProtoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED92BCE620656BEA009C6EB3 /* MagpieProtoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagpieProtoTests.swift; sourceTree = "<group>"; };
+		ED92BCE820656BEA009C6EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED92BCED20656BEA009C6EB3 /* MagpieProtoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagpieProtoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED92BCF120656BEA009C6EB3 /* MagpieProtoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagpieProtoUITests.swift; sourceTree = "<group>"; };
+		ED92BCF320656BEA009C6EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED92BCC820656BEA009C6EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED92BCDF20656BEA009C6EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED92BCEA20656BEA009C6EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED92BCC220656BEA009C6EB3 = {
+			isa = PBXGroup;
+			children = (
+				ED92BCCD20656BEA009C6EB3 /* MagpieProto */,
+				ED92BCE520656BEA009C6EB3 /* MagpieProtoTests */,
+				ED92BCF020656BEA009C6EB3 /* MagpieProtoUITests */,
+				ED92BCCC20656BEA009C6EB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED92BCCC20656BEA009C6EB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED92BCCB20656BEA009C6EB3 /* MagpieProto.app */,
+				ED92BCE220656BEA009C6EB3 /* MagpieProtoTests.xctest */,
+				ED92BCED20656BEA009C6EB3 /* MagpieProtoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED92BCCD20656BEA009C6EB3 /* MagpieProto */ = {
+			isa = PBXGroup;
+			children = (
+				ED92BCCE20656BEA009C6EB3 /* AppDelegate.swift */,
+				ED92BCD020656BEA009C6EB3 /* ViewController.swift */,
+				ED92BCD220656BEA009C6EB3 /* Main.storyboard */,
+				ED92BCD820656BEA009C6EB3 /* Assets.xcassets */,
+				ED92BCDA20656BEA009C6EB3 /* LaunchScreen.storyboard */,
+				ED92BCDD20656BEA009C6EB3 /* Info.plist */,
+				ED92BCD520656BEA009C6EB3 /* MagpieProto.xcdatamodeld */,
+			);
+			path = MagpieProto;
+			sourceTree = "<group>";
+		};
+		ED92BCE520656BEA009C6EB3 /* MagpieProtoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED92BCE620656BEA009C6EB3 /* MagpieProtoTests.swift */,
+				ED92BCE820656BEA009C6EB3 /* Info.plist */,
+			);
+			path = MagpieProtoTests;
+			sourceTree = "<group>";
+		};
+		ED92BCF020656BEA009C6EB3 /* MagpieProtoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED92BCF120656BEA009C6EB3 /* MagpieProtoUITests.swift */,
+				ED92BCF320656BEA009C6EB3 /* Info.plist */,
+			);
+			path = MagpieProtoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED92BCCA20656BEA009C6EB3 /* MagpieProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED92BCF620656BEA009C6EB3 /* Build configuration list for PBXNativeTarget "MagpieProto" */;
+			buildPhases = (
+				ED92BCC720656BEA009C6EB3 /* Sources */,
+				ED92BCC820656BEA009C6EB3 /* Frameworks */,
+				ED92BCC920656BEA009C6EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagpieProto;
+			productName = MagpieProto;
+			productReference = ED92BCCB20656BEA009C6EB3 /* MagpieProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED92BCE120656BEA009C6EB3 /* MagpieProtoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED92BCF920656BEA009C6EB3 /* Build configuration list for PBXNativeTarget "MagpieProtoTests" */;
+			buildPhases = (
+				ED92BCDE20656BEA009C6EB3 /* Sources */,
+				ED92BCDF20656BEA009C6EB3 /* Frameworks */,
+				ED92BCE020656BEA009C6EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED92BCE420656BEA009C6EB3 /* PBXTargetDependency */,
+			);
+			name = MagpieProtoTests;
+			productName = MagpieProtoTests;
+			productReference = ED92BCE220656BEA009C6EB3 /* MagpieProtoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED92BCEC20656BEA009C6EB3 /* MagpieProtoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED92BCFC20656BEA009C6EB3 /* Build configuration list for PBXNativeTarget "MagpieProtoUITests" */;
+			buildPhases = (
+				ED92BCE920656BEA009C6EB3 /* Sources */,
+				ED92BCEA20656BEA009C6EB3 /* Frameworks */,
+				ED92BCEB20656BEA009C6EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED92BCEF20656BEA009C6EB3 /* PBXTargetDependency */,
+			);
+			name = MagpieProtoUITests;
+			productName = MagpieProtoUITests;
+			productReference = ED92BCED20656BEA009C6EB3 /* MagpieProtoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED92BCC320656BEA009C6EB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MagpieTeam;
+				TargetAttributes = {
+					ED92BCCA20656BEA009C6EB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ED92BCE120656BEA009C6EB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED92BCCA20656BEA009C6EB3;
+					};
+					ED92BCEC20656BEA009C6EB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED92BCCA20656BEA009C6EB3;
+					};
+				};
+			};
+			buildConfigurationList = ED92BCC620656BEA009C6EB3 /* Build configuration list for PBXProject "MagpieProto" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED92BCC220656BEA009C6EB3;
+			productRefGroup = ED92BCCC20656BEA009C6EB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED92BCCA20656BEA009C6EB3 /* MagpieProto */,
+				ED92BCE120656BEA009C6EB3 /* MagpieProtoTests */,
+				ED92BCEC20656BEA009C6EB3 /* MagpieProtoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED92BCC920656BEA009C6EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED92BCDC20656BEA009C6EB3 /* LaunchScreen.storyboard in Resources */,
+				ED92BCD920656BEA009C6EB3 /* Assets.xcassets in Resources */,
+				ED92BCD420656BEA009C6EB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED92BCE020656BEA009C6EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED92BCEB20656BEA009C6EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED92BCC720656BEA009C6EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED92BCD720656BEA009C6EB3 /* MagpieProto.xcdatamodeld in Sources */,
+				ED92BCD120656BEA009C6EB3 /* ViewController.swift in Sources */,
+				ED92BCCF20656BEA009C6EB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED92BCDE20656BEA009C6EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED92BCE720656BEA009C6EB3 /* MagpieProtoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED92BCE920656BEA009C6EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED92BCF220656BEA009C6EB3 /* MagpieProtoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED92BCE420656BEA009C6EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED92BCCA20656BEA009C6EB3 /* MagpieProto */;
+			targetProxy = ED92BCE320656BEA009C6EB3 /* PBXContainerItemProxy */;
+		};
+		ED92BCEF20656BEA009C6EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED92BCCA20656BEA009C6EB3 /* MagpieProto */;
+			targetProxy = ED92BCEE20656BEA009C6EB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED92BCD220656BEA009C6EB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED92BCD320656BEA009C6EB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED92BCDA20656BEA009C6EB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED92BCDB20656BEA009C6EB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED92BCF420656BEA009C6EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED92BCF520656BEA009C6EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED92BCF720656BEA009C6EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagpieProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbc.MagpieProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED92BCF820656BEA009C6EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagpieProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbc.MagpieProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED92BCFA20656BEA009C6EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagpieProtoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbc.MagpieProtoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagpieProto.app/MagpieProto";
+			};
+			name = Debug;
+		};
+		ED92BCFB20656BEA009C6EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagpieProtoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbc.MagpieProtoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagpieProto.app/MagpieProto";
+			};
+			name = Release;
+		};
+		ED92BCFD20656BEA009C6EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagpieProtoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbc.MagpieProtoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagpieProto;
+			};
+			name = Debug;
+		};
+		ED92BCFE20656BEA009C6EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagpieProtoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbc.MagpieProtoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagpieProto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED92BCC620656BEA009C6EB3 /* Build configuration list for PBXProject "MagpieProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED92BCF420656BEA009C6EB3 /* Debug */,
+				ED92BCF520656BEA009C6EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED92BCF620656BEA009C6EB3 /* Build configuration list for PBXNativeTarget "MagpieProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED92BCF720656BEA009C6EB3 /* Debug */,
+				ED92BCF820656BEA009C6EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED92BCF920656BEA009C6EB3 /* Build configuration list for PBXNativeTarget "MagpieProtoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED92BCFA20656BEA009C6EB3 /* Debug */,
+				ED92BCFB20656BEA009C6EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED92BCFC20656BEA009C6EB3 /* Build configuration list for PBXNativeTarget "MagpieProtoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED92BCFD20656BEA009C6EB3 /* Debug */,
+				ED92BCFE20656BEA009C6EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED92BCD520656BEA009C6EB3 /* MagpieProto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED92BCD620656BEA009C6EB3 /* MagpieProto.xcdatamodel */,
+			);
+			currentVersion = ED92BCD620656BEA009C6EB3 /* MagpieProto.xcdatamodel */;
+			path = MagpieProto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED92BCC320656BEA009C6EB3 /* Project object */;
+}
