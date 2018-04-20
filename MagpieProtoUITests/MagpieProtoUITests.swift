@@ -2,7 +2,7 @@
 //  MagpieProtoUITests.swift
 //  MagpieProtoUITests
 //
-//  Created by Michael Van Dyke on 2018-03-23.
+//  Created by Michael Van Dyke, Sean Dougan and Gregory Uchitel on 2018-03-22.
 //  Copyright © 2018 MagpieTeam. All rights reserved.
 //
 

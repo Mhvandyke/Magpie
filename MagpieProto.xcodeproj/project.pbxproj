@@ -15,6 +15,8 @@
 		ED92BCDC20656BEA009C6EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED92BCDA20656BEA009C6EB3 /* LaunchScreen.storyboard */; };
 		ED92BCE720656BEA009C6EB3 /* MagpieProtoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED92BCE620656BEA009C6EB3 /* MagpieProtoTests.swift */; };
 		ED92BCF220656BEA009C6EB3 /* MagpieProtoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED92BCF120656BEA009C6EB3 /* MagpieProtoUITests.swift */; };
+		ED92BD002065C932009C6EB3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED92BCFF2065C932009C6EB3 /* DetailViewController.swift */; };
+		ED92BD052065DC93009C6EB3 /* Magpie.png in Resources */ = {isa = PBXBuildFile; fileRef = ED92BD042065DC93009C6EB3 /* Magpie.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ED92BCED20656BEA009C6EB3 /* MagpieProtoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagpieProtoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED92BCF120656BEA009C6EB3 /* MagpieProtoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagpieProtoUITests.swift; sourceTree = "<group>"; };
 		ED92BCF320656BEA009C6EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED92BCFF2065C932009C6EB3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ED92BD042065DC93009C6EB3 /* Magpie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Magpie.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		ED92BCC220656BEA009C6EB3 = {
 			isa = PBXGroup;
 			children = (
+				ED92BD032065DC7E009C6EB3 /* Resources */,
 				ED92BCCD20656BEA009C6EB3 /* MagpieProto */,
 				ED92BCE520656BEA009C6EB3 /* MagpieProtoTests */,
 				ED92BCF020656BEA009C6EB3 /* MagpieProtoUITests */,
@@ -101,6 +106,7 @@
 			children = (
 				ED92BCCE20656BEA009C6EB3 /* AppDelegate.swift */,
 				ED92BCD020656BEA009C6EB3 /* ViewController.swift */,
+				ED92BCFF2065C932009C6EB3 /* DetailViewController.swift */,
 				ED92BCD220656BEA009C6EB3 /* Main.storyboard */,
 				ED92BCD820656BEA009C6EB3 /* Assets.xcassets */,
 				ED92BCDA20656BEA009C6EB3 /* LaunchScreen.storyboard */,
@@ -126,6 +132,14 @@
 				ED92BCF320656BEA009C6EB3 /* Info.plist */,
 			);
 			path = MagpieProtoUITests;
+			sourceTree = "<group>";
+		};
+		ED92BD032065DC7E009C6EB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED92BD042065DC93009C6EB3 /* Magpie.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED92BD052065DC93009C6EB3 /* Magpie.png in Resources */,
 				ED92BCDC20656BEA009C6EB3 /* LaunchScreen.storyboard in Resources */,
 				ED92BCD920656BEA009C6EB3 /* Assets.xcassets in Resources */,
 				ED92BCD420656BEA009C6EB3 /* Main.storyboard in Resources */,
@@ -265,6 +280,7 @@
 				ED92BCD720656BEA009C6EB3 /* MagpieProto.xcdatamodeld in Sources */,
 				ED92BCD120656BEA009C6EB3 /* ViewController.swift in Sources */,
 				ED92BCCF20656BEA009C6EB3 /* AppDelegate.swift in Sources */,
+				ED92BD002065C932009C6EB3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
