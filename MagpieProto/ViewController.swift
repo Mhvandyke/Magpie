@@ -105,6 +105,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         table.setEditing(editing, animated: animated)
     }
     
+    // function for deleting
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         data.remove(at: indexPath.row)
         
