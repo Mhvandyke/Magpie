@@ -11,6 +11,10 @@ import UIKit
 class DetailViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
     
+    @IBOutlet weak var contentTextField: UITextField!
+    
+    
+    
     var text:String = ""
     
     var masterView:ViewController!
@@ -22,6 +26,20 @@ class DetailViewController: UIViewController {
         
         textView.text = text
           self.navigationItem.largeTitleDisplayMode = .never
+    }
+    
+    // Button to change to create note
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        // Links the Note Entity with the Object Context
+        let note = NoteEnt(context: context)
+         note.content = contentTextField.text!
+        
+        // Save the data to coredata
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
+        let _ = navigationController?.popViewController(animated: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {

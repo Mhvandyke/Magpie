@@ -17,8 +17,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var selectedRow:Int = -1
     var newRowText:String = ""
     
+    var coreDate : String = ""
+    
+    
+    
     // URL of file for persistant storage
     var fileURL:URL!
+    
+    // declare core data here
     
     
     // View did load only calls once for initialization
@@ -78,7 +84,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         
         // if the titles were handled by +1
-        
        // let name:String = "Item \(data.count + 1)"
         
         let name:String = ""

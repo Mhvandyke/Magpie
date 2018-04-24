@@ -52,9 +52,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="Tyt-vh-f8O" kind="show" id="Tqo-tA-gdd"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -74,16 +71,33 @@
                     <connections>
                         <outlet property="table" destination="fWJ-a9-YN1" id="ybV-me-KK8"/>
                         <segue destination="oMf-f5-dzw" kind="show" identifier="detail" id="eeh-YK-yrr"/>
+                        <segue destination="Tne-hG-rOn" kind="presentation" id="p43-pC-Trp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="845.60000000000002" y="130.88455772113943"/>
         </scene>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="3Tb-1X-rqK">
+            <objects>
+                <navigationController id="Tne-hG-rOn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gpP-zL-GMa">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Tyt-vh-f8O" kind="show" id="kpH-d1-l2W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="glU-gg-ATo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="846" y="875"/>
+        </scene>
+        <!--NoteView-->
         <scene sceneID="zUI-Ix-VnV">
             <objects>
-                <viewController id="Tyt-vh-f8O" sceneMemberID="viewController">
+                <viewController title="NoteView" id="Tyt-vh-f8O" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fhT-x0-8VX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6e-fe-ej4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846" y="936"/>
+            <point key="canvasLocation" x="1599" y="875"/>
         </scene>
         <!--Note-->
         <scene sceneID="J1X-nb-lY1">
