@@ -32,6 +32,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         // Notes title
         self.title = "Notes"
+        
+        // Make title the note's set title
+        
+        // self.title = definedTitle
+        
         self.navigationController?.navigationBar.prefersLargeTitles = true
          self.navigationItem.largeTitleDisplayMode = .always
        
@@ -52,6 +57,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             return
             
         }
+        
+        // if nothing is entered, delete the created row
         data[selectedRow] = newRowText
         if newRowText == "" {
             
@@ -71,6 +78,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         
         // if the titles were handled by +1
+        
        // let name:String = "Item \(data.count + 1)"
         
         let name:String = ""
